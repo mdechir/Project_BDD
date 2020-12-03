@@ -5,14 +5,14 @@ dossier dans votre propre github auquel vous aurez tout les droits de push et pu
 -> Aller ensuite dans votre repertoir fork, cliquez sur "code" et copier le lien https
 -> Ensuite aller dans vos dossiers faites un clique droit puis "Git bash her" un invite de commande s'ouvre, entrez à présent les commandes suivantes : 
 
-- git remote add upstream (collez ici le lien copié au préalable, le ctrl v ne fonctionne pas il faut faire clique droit puis coller)
-ça devrais vous donner une ligne du style : "git remote add https://github.com/username/repositoryName.git"
+- git clone https://github.com/gaetan-dng/Project_BDD.git
+- git remote add upstream https://github.com/gaetan-dng/Project_BDD.git
 - git fetch
-- git pull upstream master
-  ouvrez le fichier "Pull-Request-Verif.txt" Ajoutez votre nom puis enregistrez. 
-- git add Pull-Request-Verif.txt
+- git pull upstream main
+  ouvrez le fichier "name.txt" Ajoutez votre nom puis enregistrez. 
+- git add name.txt
 - git commit -m "add of my name for pull request verification"
-- git push origin master 
+- git push 
 
 Puis aller dans votre dossier sur github et faire un "new pull request" avec un titre de pull request adapté 
 /!\ Les pulls request sont à faire uniquement lorsque votre fork compile /!\ 
