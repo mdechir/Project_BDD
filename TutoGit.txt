@@ -23,7 +23,7 @@ Puis aller dans votre dossier sur github et faire un "new pull request" avec un 
 ------------------------*/
 
 
-- git pull upstream master (pour récupérer la dernière version du projet)
+- git pull upstream main (pour récupérer la dernière version du projet)
 - git status (pour voir tout les fichiers modifiés)
 - git add filename (commande obligatoire lorsque vous modifiez un fichier que vous voulez commit)
 - git add ./ (commande pour ajouter tout les fichiers modifié)
