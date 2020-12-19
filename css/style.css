@@ -34,6 +34,19 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+.logo-user {
+    display: inline;
+    margin-left: 15px;
+    padding: 16px 10px 16px 10px;
+    border: solid #dbdbdb 1px;
+    align-items: right;
+}
+
+.arnaque {
+    display: inline;
+    font-size: 10px;
+}
+
 .inscription {
     margin-left: 20px;
     color: black;
@@ -167,7 +180,7 @@ ol {
 }
 
 .spad {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -3199,12 +3212,18 @@ ol {
     .container {
         max-width: 1170px;
     }
+    .logo-user {
+        display: none;
+    }
 }
 
 
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .logo-user {
+        display: none;
+    }
     .header__menu ul li {
         margin-right: 32px;
     }
