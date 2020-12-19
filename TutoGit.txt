@@ -6,6 +6,7 @@ dossier dans votre propre github auquel vous aurez tout les droits de push et pu
 -> Ensuite aller dans vos dossiers faites un clique droit puis "Git bash her" un invite de commande s'ouvre, entrez à présent les commandes suivantes : 
 
 - git clone https://github.com/gaetan-dng/Project_BDD.git
+une fois le dossier crée fermez le bash, double clickez dans le dossier et ouvrez un autre git bash en faisant click droit "git bash her".
 - git remote add upstream https://github.com/gaetan-dng/Project_BDD.git
 - git fetch
 - git pull upstream main

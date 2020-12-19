@@ -33,21 +33,20 @@
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
-        <div class="offcanvas__widget">
-            <a href="#"><i class="fa fa-cart-plus"></i></a>
-            <a href="#" class="primary-btn">Add Car</a>
-        </div>
         <div class="offcanvas__logo">
             <a href="./index.html"><img src="img/logo.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <ul class="offcanvas__widget__add">
-            <li><i class="fa fa-clock-o"></i> Week day: 08:00 am to 18:00 pm</li>
-            <li><i class="fa fa-envelope-o"></i> Info.colorlib@gmail.com</li>
+            <li><i class="fa fa-clock-o"></i> Horaire d'ouverture :
+                <div><b>08h00 - 18h00</b>
+                </div>
+            </li>
+            <li><i class="fa fa-envelope-o"></i> mdechir@la-providence.net</li>
         </ul>
         <div class="offcanvas__phone__num">
             <i class="fa fa-phone"></i>
-            <span>(+12) 345 678 910</span>
+            <span>(+33) 06 27 28 27 28 </span>
         </div>
         <div class="offcanvas__social">
             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -65,15 +64,15 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <ul class="header__top__widget">
-                            <li><i class="fa fa-clock-o"></i> Week day: 08:00 am to 18:00 pm</li>
-                            <li><i class="fa fa-envelope-o"></i> Info.colorlib@gmail.com</li>
+                            <li><i class="fa fa-clock-o"></i> Horaire d'ouverture : 08h00 - 18h00</li>
+                            <li><i class="fa fa-envelope-o"></i> mdechir@la-providence.net</li>
                         </ul>
                     </div>
                     <div class="col-lg-5">
                         <div class="header__top__right">
                             <div class="header__top__phone">
                                 <i class="fa fa-phone"></i>
-                                <span>(+12) 345 678 910</span>
+                                <span>(+33) 06 27 28 27 28</span>
                             </div>
                             <div class="header__top__social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -91,7 +90,12 @@
                 <div class="col-lg-2">
                     <div class="header__logo">
                         <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <div class="logo-user">
+                            <a href="#"> <img src="img/clients/user.png" alt="logo user"> </a>
+                            <!-- redirige sur la page inscription/connexion-->
+                        </div>
                     </div>
+
                 </div>
                 <div class="col-lg-10">
                     <div class="header__nav">
@@ -104,9 +108,9 @@
                             </ul>
                         </nav>
                         <div class="header__nav__widget">
-                            <div class="header__nav__widget__btn">
+                            <!-- <div class="header__nav__widget__btn">
                                 <a href="#"><i class="fa fa-cart-plus"></i></a>
-                            </div>
+                            </div> -->
                             <a href="#" class="primary-btn">Se connecter</a>
                         </div>
                         <a href="" class="inscription"> Inscription </a>
@@ -124,18 +128,21 @@
     <section class="hero spad set-bg" data-setbg="img/hero-bg.jpg">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-9">
                     <div class="hero__text">
                         <div class="hero__text__title">
-                            <span>FIND YOUR DREAM CAR</span>
+                            <span>trouvez la voiture de vos rêves</span>
                             <h2>Porsche Cayenne S</h2>
                         </div>
                         <div class="hero__text__price">
-                            <div class="car-model">Model 2019</div>
-                            <h2>$399<span>/Month</span></h2>
+                            <div class="car-model">Modèle 2019</div>
+                            <h2>399€<span>/Mois</span>
+                                <div class="arnaque">(Pendant 360 mois)</div>
+                            </h2>
+
                         </div>
-                        <a href="#" class="primary-btn"><img src="img/wheel.png" alt=""> Test Drive</a>
-                        <a href="#" class="primary-btn more-btn">Learn More</a>
+                        <a href="#" class="primary-btn"><img src="img/wheel.png" alt=""> La tester</a>
+                        <a href="#" class="primary-btn more-btn">Lire plus</a>
                     </div>
                 </div>
                 <!-- <div class="col-lg-5">
@@ -273,30 +280,24 @@
                             </div>
                             <button type="submit" class="site-btn">Searching</button>
                         </form>
-                    </div>
-            </div> 
-            </div>
-        </div>
-        </div>-->
+                    </div> -->
             </div>
         </div>
     </section>
     <!-- Hero Section End -->
-
-
     <!-- Car Section Begin -->
     <section class="car spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <span>Our Car</span>
-                        <h2>Best Vehicle Offers</h2>
+                        <span>Nos voitures</span>
+                        <h2>Meilleurs offres de véhicule</h2>
                     </div>
                     <ul class="filter__controls">
-                        <li class="active" data-filter="*">Most Researched</li>
+                        <li class="active" data-filter="*">Boite manuel</li>
                         <!-- TODO : changer l'option de recherche en boite manuel / auto-->
-                        <li data-filter=".sale">Latest on sale</li>
+                        <li data-filter=".sale">Boite auto</li>
                     </ul>
                 </div>
             </div>
@@ -314,14 +315,14 @@
                                 <div class="label-date">2016</div>
                                 <h5><a href="#">Porsche cayenne turbo s</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option">For Rent</span>
-                                <h6>$218<span>/Month</span></h6>
+                                <span class="car-option">A louer</span>
+                                <h6>$218<span>/Mois</span></h6>
                             </div>
                         </div>
                     </div>
@@ -339,13 +340,13 @@
                                 <div class="label-date">2020</div>
                                 <h5><a href="#">Toyota camry asv50l-jeteku</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option sale">For Sale</span>
+                                <span class="car-option sale">A Vendre</span>
                                 <h6>$73,900</h6>
                             </div>
                         </div>
@@ -364,14 +365,14 @@
                                 <div class="label-date">2017</div>
                                 <h5><a href="#">Bmw s1000rr 2019 m</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option">For Rent</span>
-                                <h6>$299<span>/Month</span></h6>
+                                <span class="car-option">A louer</span>
+                                <h6>$299<span>/Mois</span></h6>
                             </div>
                         </div>
                     </div>
@@ -389,13 +390,13 @@
                                 <div class="label-date">2019</div>
                                 <h5><a href="#">Lamborghini huracan evo</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option sale">For Sale</span>
+                                <span class="car-option sale">A Vendre</span>
                                 <h6>$120,000</h6>
                             </div>
                         </div>
@@ -414,14 +415,14 @@
                                 <div class="label-date">2018</div>
                                 <h5><a href="#">Audi q8 2020</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option">For Rent</span>
-                                <h6>$319<span>/Month</span></h6>
+                                <span class="car-option">A louer</span>
+                                <h6>$319<span>/Mois</span></h6>
                             </div>
                         </div>
                     </div>
@@ -439,13 +440,13 @@
                                 <div class="label-date">2016</div>
                                 <h5><a href="#">Mustang shelby gt500</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option sale">For Sale</span>
+                                <span class="car-option sale">A Vendre</span>
                                 <h6>$730,900</h6>
                             </div>
                         </div>
@@ -464,14 +465,14 @@
                                 <div class="label-date">2020</div>
                                 <h5><a href="#">Lamborghini aventador A90</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option">For Rent</span>
-                                <h6>$422<span>/Month</span></h6>
+                                <span class="car-option">A louer</span>
+                                <h6>$422<span>/Mois</span></h6>
                             </div>
                         </div>
                     </div>
@@ -489,14 +490,14 @@
                                 <div class="label-date">2017</div>
                                 <h5><a href="#">Porsche cayenne turbo s</a></h5>
                                 <ul>
-                                    <li><span>35,000</span> mi</li>
+                                    <li><span>35,000</span> km</li>
                                     <li>Auto</li>
                                     <li><span>700</span> hp</li>
                                 </ul>
                             </div>
                             <div class="car__item__price">
-                                <span class="car-option">For Rent</span>
-                                <h6>$322<span>/Month</span></h6>
+                                <span class="car-option">A louer</span>
+                                <h6>$322<span>/Mois</span></h6>
                             </div>
                         </div>
                     </div>
@@ -505,21 +506,21 @@
         </div>
     </section>
     <!-- Car Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+   <!-- Footer Section Begin -->
+   <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
         <div class="container">
             <div class="footer__contact">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="footer__contact__title">
-                            <h2>Contact Us Now!</h2>
+                            <h2>Contactez nous maintenant!</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="footer__contact__option">
-                            <div class="option__item"><i class="fa fa-phone"></i> (+12) 345 678 910</div>
-                            <div class="option__item email"><i class="fa fa-envelope-o"></i> Colorlib@gmail.com</div>
+                            <div class="option__item"><i class="fa fa-phone"></i> (+33) 06 27 28 27 28</div>
+                            <div class="option__item email"><i class="fa fa-envelope-o"></i> mdechir@la-providence.net
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -530,7 +531,7 @@
                         <div class="footer__logo">
                             <a href="#"><img src="img/footer-logo.png" alt=""></a>
                         </div>
-                        <p>Any questions? Let us know in store at 625 Gloria Union, California, United Stated or call us on (+1) 96 123 8888</p>
+                        <p>Une question ? Envoyez nous vos question par mail ou venez nous voir directement en boutique ou appelez nous au 06 27 28 27 28 27</p>
                         <div class="footer__social">
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -543,16 +544,16 @@
                     <div class="footer__widget">
                         <h5>Infomation</h5>
                         <ul>
-                            <li><a href="#"><i class="fa fa-angle-right"></i> Purchase</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i> Payemnt</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i> Shipping</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i> Return</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Achat</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Paiement</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Vente</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Retour</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3">
                     <div class="footer__widget">
-                        <h5>Infomation</h5>
+                        <h5>Catégorie</h5>
                         <ul>
                             <li><a href="#"><i class="fa fa-angle-right"></i> Hatchback</a></li>
                             <li><a href="#"><i class="fa fa-angle-right"></i> Sedan</a></li>
@@ -563,7 +564,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer__brand">
-                        <h5>Top Brand</h5>
+                        <h5>Top Marques</h5>
                         <ul>
                             <li><a href="#"><i class="fa fa-angle-right"></i> Abarth</a></li>
                             <li><a href="#"><i class="fa fa-angle-right"></i> Acura</a></li>
@@ -584,7 +585,8 @@
                 <p>Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                    </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    </script> Tout droit reservé | La providence Amiens
+                </p>
             </div>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </div>
@@ -592,6 +594,7 @@
     <!-- Footer Section End -->
 
     <!-- Search Begin -->
+    <!---->
     <div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="search-close-switch">+</div>
