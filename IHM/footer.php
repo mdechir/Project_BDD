@@ -1,3 +1,4 @@
+<?php echo "coucou footer"; ?>
    <!-- Footer Section Begin -->
    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
         <div class="container">
