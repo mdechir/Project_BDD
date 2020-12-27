@@ -37,7 +37,7 @@ include 'struct/menuVisitor.html'; ?>
                             <h5>Filtrer</h5>
                             <form action="#">
                                 <select>
-                                    <option data-display="Brand">Selectionnez une marque</option>
+                                    <option data-display="Marque">Selectionnez une marque</option>
                                     <option value="">Acura</option>
                                     <option value="">Audi</option>
                                     <option value="">Bentley</option>
@@ -45,49 +45,49 @@ include 'struct/menuVisitor.html'; ?>
                                         <option value="">Bugatti</option>
                                 </select>
                                 <select>
-                                    <option data-display="Model">Select Model</option>
+                                    <option data-display="Modèle">Selectionnez Modèle</option>
                                     <option value="">Q3</option>
                                     <option value="">A4 </option>
                                     <option value="">AVENTADOR</option>
                                 </select>
                                 <select>
-                                    <option value="">Body Style</option>
+                                    <option value="">Style</option>
                                     <option value="">Option 1</option>
                                     <option value="">Option 2</option>
                                 </select>
                                 <select>
                                     <option value="">Condition</option>
-                                    <option value="">First Hand</option>
-                                    <option value="">Second Hand</option>
+                                    <option value="">Première main</option>
+                                    <option value="">Seconde main</option>
                                 </select>
                                 <select>
-                                    <option value="">Transmisson</option>
+                                    <option value="">Transmission</option>
                                     <option value="">Bluetooth</option>
                                     <option value="">WiFi</option>
                                 </select>
                                 <select>
-                                    <option value="">Mileage</option>
+                                    <option value="">Kilmoètrage</option>
                                     <option value="">27</option>
                                     <option value="">20</option>
                                     <option value="">15</option>
                                     <option value="">10</option>
                                 </select>
                                 <select>
-                                    <option value="">Engine</option>
+                                    <option value="">Moteur</option>
                                     <option value="">BS3</option>
                                     <option value="">BS4</option>
                                     <option value="">BS5</option>
                                     <option value="">BS6</option>
                                 </select>
                                 <select>
-                                    <option value="">Colors</option>
+                                    <option value="">Couleurs</option>
                                     <option value="">Red</option>
                                     <option value="">Blue</option>
                                     <option value="">Black</option>
                                     <option value="">Yellow</option>
                                 </select>
-                                <div class="filter-price">
-                                    <p>Price:</p>
+                                <div class="Filtrer prix">
+                                    <p>Prix :</p>
                                     <div class="price-range-wrap">
                                         <div class="filter-price-range"></div>
                                         <div class="range-slider">
@@ -98,7 +98,7 @@ include 'struct/menuVisitor.html'; ?>
                                     </div>
                                 </div>
                                 <div class="car__filter__btn">
-                                    <button type="submit" class="site-btn">Reset FIlter</button>
+                                    <button type="submit" class="site-btn">Reinitialiser filtres</button>
                                 </div>
                             </form>
                         </div>
@@ -109,20 +109,20 @@ include 'struct/menuVisitor.html'; ?>
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="car__filter__option__item">
-                                    <h6>Show On Page</h6>
+                                    <h6>Regarder sur la page</h6>
                                     <select>
-                                        <option value="">9 Car</option>
-                                        <option value="">15 Car</option>
-                                        <option value="">20 Car</option>
+                                        <option value="">9 Véhicules</option>
+                                        <option value="">15 Véhicules</option>
+                                        <option value="">20 Véhicules</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="car__filter__option__item car__filter__option__item--right">
-                                    <h6>Sort By</h6>
+                                    <h6>Trier prix</h6>
                                     <select>
-                                        <option value="">Price: Highest Fist</option>
-                                        <option value="">Price: Lowest Fist</option>
+                                        <option value="">Prix: Decroissant</option>
+                                        <option value="">Prix: Croissant</option>
                                     </select>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ include 'struct/menuVisitor.html'; ?>
                                         </ul>
                                     </div>
                                     <div class="car__item__price">
-                                        <span class="car-option">For Rent</span>
+                                        <span class="car-option">A louer</span>
                                         <h6>$218<span>/Month</span></h6>
                                     </div>
                                 </div>

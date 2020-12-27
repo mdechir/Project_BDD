@@ -9,10 +9,11 @@ include 'struct/menuVisitor.html'; ?>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Contact Us</h2>
+                        <h2>Contactez nous
+                        </h2>
                         <div class="breadcrumb__links">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                            <span>Contact Us</span>
+                            <a href="./index.html"><i class="fa fa-home"></i>Accueil</a>
+                            <span>Contactez Nous</span>
                         </div>
                     </div>
                 </div>
@@ -28,13 +29,13 @@ include 'struct/menuVisitor.html'; ?>
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__text">
                         <div class="section-title">
-                            <h2>Let’s Work Together</h2>
-                            <p>To make requests for further information, contact us via our social channels.</p>
+                            <h2>Travaillons ensemble</h2>
+                            <p>Pour faire des demandes d'informations complémentaires, contactez-nous via nos canaux sociaux.</p>
                         </div>
                         <ul>
-                            <li><span>Weekday</span> 08:00 am to 18:00 pm</li>
-                            <li><span>Saturday:</span> 10:00 am to 16:00 pm</li>
-                            <li><span>Sunday:</span> Closed</li>
+                            <li><span>En semaine</span> 08h00 - 18h00</li>
+                            <li><span>Samedi</span> 10h00 - 16h00</li>
+                            <li><span>Dimanche</span> fermé</li>
                         </ul>
                     </div>
                 </div>
@@ -43,15 +44,15 @@ include 'struct/menuVisitor.html'; ?>
                         <form action="#">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Nom">
                                 </div>
                                 <div class="col-lg-6">
                                     <input type="text" placeholder="Email">
                                 </div>
                             </div>
-                            <input type="text" placeholder="Subject">
-                            <textarea placeholder="Your Question"></textarea>
-                            <button type="submit" class="site-btn">Submit Now</button>
+                            <input type="text" placeholder="Sujet">
+                            <textarea placeholder="Votre Question"></textarea>
+                            <button type="submit" class="site-btn">Envoyer</button>
                         </form>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 <?php
 
-class car
+class annonce
 {
 
     // attribut privé : 
