@@ -250,3 +250,10 @@ include 'struct/menuVisitor.html'; ?>
 </body>
 
 </html>
+
+<script>
+    document.getElementById('accueil').className = "active";
+    document.getElementById('annonce').className = "";
+    document.getElementById('apropos').className = "";
+    document.getElementById('contact').className = "";
+</script>

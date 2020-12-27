@@ -1,4 +1,4 @@
-<?php include 'struct/entete.html'; 
+<?php include 'struct/entete.html';
 include 'struct/menuVisitor.html'; ?>
 
 <body>
@@ -8,10 +8,10 @@ include 'struct/menuVisitor.html'; ?>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Car Listing</h2>
+                        <h2>La liste des voitures en vente</h2>
                         <div class="breadcrumb__links">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                            <span>About</span>
+                            <a href="./index.html"><i class="fa fa-home"></i> Accueil</a>
+                            <span>Annonce</span>
                         </div>
                     </div>
                 </div>
@@ -27,22 +27,22 @@ include 'struct/menuVisitor.html'; ?>
                 <div class="col-lg-3">
                     <div class="car__sidebar">
                         <div class="car__search">
-                            <h5>Car Search</h5>
+                            <h5>Chercher une voiture</h5>
                             <form action="#">
-                                <input type="text" placeholder="Search...">
+                                <input type="text" placeholder="Rechercher...">
                                 <button type="submit"><i class="fa fa-search"></i></button>
                             </form>
                         </div>
                         <div class="car__filter">
-                            <h5>Car Filter</h5>
+                            <h5>Filtrer</h5>
                             <form action="#">
                                 <select>
-                                    <option data-display="Brand">Select Brand</option>
+                                    <option data-display="Brand">Selectionnez une marque</option>
                                     <option value="">Acura</option>
                                     <option value="">Audi</option>
                                     <option value="">Bentley</option>
                                     <<option value="">BMW</option>
-                                    <option value="">Bugatti</option>
+                                        <option value="">Bugatti</option>
                                 </select>
                                 <select>
                                     <option data-display="Model">Select Model</option>
@@ -378,17 +378,12 @@ include 'struct/menuVisitor.html'; ?>
     </div>
     <?php include "struct/footer.html"; ?>
     <!-- Search End -->
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
 
 </html>
+<script>
+    document.getElementById('accueil').className = "";
+    document.getElementById('annonce').className = "active";
+    document.getElementById('apropos').className = "";
+    document.getElementById('contact').className = "";
+</script>
