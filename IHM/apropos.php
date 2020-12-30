@@ -2,24 +2,18 @@
 include 'struct/menuVisitor.html';?>
 
 <body>
-    <!-- Page Preloder 
-    <div id="preloder">
-        <div class="loader"></div>
-    </div> -->
-
-    <!-- Blog Details Hero Begin -->
     <section class="blog-details-hero spad set-bg" data-setbg="../img/blog/details/details-hero-bg.jpg">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-10">
                     <div class="blog__details__hero__text">
-                        <span class="label">Car Dealer, BMW</span>
-                        <h2>An Update on Adobe Fuse as Adobe Moves to the Future of 3D & AR Development</h2>
+                        <span class="label">Concessionnaire, BMW</span>
+                        <h2>Une mise à jour sur Adobe Fuse alors qu'Adobe se dirige vers l'avenir du développement 3D et AR</h2>
                         <ul>
-                            <li><img src="../img/blog/details/details-hero-avatar.png" alt=""> <span>By Evelyn Lane</span>
+                            <li><img src="../img/blog/details/details-hero-avatar.png" alt=""> <span>Par Evelyn Lane</span>
                             </li>
                             <li><i class="fa fa-calendar-o"></i> <span>Dec 17, 2019</span></li>
-                            <li><i class="fa fa-edit"></i> <span>2 Comment</span></li>
+                            <li><i class="fa fa-edit"></i> <span>2 Commentaires</span></li>
                         </ul>
                     </div>
                 </div>

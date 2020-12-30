@@ -69,6 +69,12 @@
                                 </form>
                                 <form id="register-form" action="https://phpoll.com/register/process" method="post" role="form" style="display: none;">
                                     <div class="form-group">
+                                        <input type="text" name="nom" id="nom" tabindex="1" class="form-control" placeholder="Nom" value="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="prenom" id="prenom" tabindex="1" class="form-control" placeholder="Prénom" value="">
+                                    </div>
+                                    <div class="form-group">
                                         <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                                     </div>
                                     <div class="form-group">

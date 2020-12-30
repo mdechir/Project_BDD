@@ -1,8 +1,11 @@
-<?php include 'struct/entete.html';
-include 'struct/menuVisitor.html';
-include "struct/accueilBody.html"; ?>
+<?php
 
+include 'struct/entete.html';
+include 'struct/menuUser.html';
+include 'struct/accueilBody.html';
+include "struct/footer.html";
 
+?>
 
 </html>
 

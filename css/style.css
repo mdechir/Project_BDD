@@ -33,7 +33,74 @@
 
 /* Template default CSS
 /*----------------------------------------*/
+.center-cross{
 
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.red-delete{
+    color: red;
+  
+}
+
+.delete-ajust{
+    font-size: 50px;
+
+}
+.annonce {
+    background-color: white;
+    margin : 25px 0px 25px 0px;
+}
+
+input[type="number"] {
+   font-size: 16px;
+   height: 45px;
+}
+.publish-form{
+    margin-bottom: 150px;
+}
+
+.btn-submit {
+
+    margin-top : 30px;
+}
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+.radiobtn1 {
+
+    margin : 25px 10px 40px 60px;
+    font-size: 15px;
+
+}
+
+.radiobtn2 {
+
+    margin : 10px 10px 10px 150px;
+    font-size: 15px;
+
+}
+
+.label1{
+    margin-left: 30px;
+}
+
+.label2{
+    margin-left: 30px;
+}
+.admin-title {
+
+    color :#db2d2e; 
+    font-weight: 500;
+    text-align: center;
+    font-size: 60px;
+    margin : 20px 0px 20px 0px;
+}
 .logo-user {
     display: inline;
     margin-left: 15px;
@@ -3768,4 +3835,18 @@ ol {
         font-size: 24px;
         width: 100%;
     }
+}
+
+.border-annonce {
+    border:none;
+    border-top: 0px;
+}
+
+.col-border{
+    border-left: 1px solid  #ebebeb;
+}
+
+.border-annonce h6{
+    border :none ;
+    border-top: 0px;
 }
