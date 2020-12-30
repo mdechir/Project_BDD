@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Dim 27 Décembre 2020 à 17:06
+-- Généré le :  Mer 30 Décembre 2020 à 14:29
 -- Version du serveur :  10.1.47-MariaDB-0+deb9u1
 -- Version de PHP :  7.0.33-0+deb9u10
 
@@ -71,6 +71,9 @@ CREATE TABLE `panier` (
 CREATE TABLE `user` (
   `id_user` int(11) NOT NULL,
   `mail` varchar(50) NOT NULL,
+  `nom` varchar(20) NOT NULL,
+  `prenom` varchar(30) NOT NULL,
+  `date_creation` date NOT NULL,
   `login` varchar(20) NOT NULL,
   `mdp` varchar(50) NOT NULL,
   `grade` varchar(20) NOT NULL
@@ -80,8 +83,8 @@ CREATE TABLE `user` (
 -- Contenu de la table `user`
 --
 
-INSERT INTO `user` (`id_user`, `mail`, `login`, `mdp`, `grade`) VALUES
-(1, 'fwantelez@la-providence.net', 'florian60430', '1234', 'admin');
+INSERT INTO `user` (`id_user`, `mail`, `nom`, `prenom`, `date_creation`, `login`, `mdp`, `grade`) VALUES
+(1, 'fwantelez@la-providence.net', 'Wantelez', 'Florian', '2020-12-29', 'florian60430', '1234', 'admin');
 
 --
 -- Index pour les tables exportées

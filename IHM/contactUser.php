@@ -1,7 +1,7 @@
 <?php
 
 include 'struct/entete.html';
-include 'struct/menuVisitor.html';
+include 'struct/menuUser.html';
 include 'struct/contactBody.html';
 include 'struct/footer.html'; 
 ?>
